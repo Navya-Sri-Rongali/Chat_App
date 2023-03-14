@@ -1,0 +1,79 @@
+.eachgroup{
+    display: flex;
+    flex:1;
+    
+}
+.first-half{
+    flex:0.15;
+    border:1px solid lightgrey;
+}
+.second-half{
+    height: 100vh;
+    flex:0.85;
+    /* background-image: url("https://media.istockphoto.com/id/493768296/vector/seamless-sports-pattern.jpg?s=612x612&w=0&k=20&c=_BfZvK30qnk_LtCDAzJGLvSjWVEJOi6tKd3EOwEOvjo="); */
+    /* background-image: url("https://st.depositphotos.com/3470617/4866/v/950/depositphotos_48664195-stock-illustration-internet-seamless-background.jpg"); */
+    
+    background-image: url("https://t3.ftcdn.net/jpg/03/27/51/56/360_F_327515607_Hcps04aaEc7Ki43d1XZPxwcv0ZaIaorh.jpg"); 
+       
+    background-size: cover;
+    overflow-y: scroll;
+}
+.textinput{
+    width: 75vw;
+    padding: 10px;
+    font-size: 15px;
+}
+.send{
+    border: 2px solid #1f9560;
+    background-color: #1f9560;
+    color:white !important;
+    padding:10px !important;
+    border-radius: 50%;
+    
+    /* margin:5px; */
+}
+
+.inside-header{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+.inside-header-text{
+    color: #1f9560;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
+}
+.info-icon{
+    margin-left: 1150px;
+    
+}
+.divider{
+    color:#1f9560;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 80px;
+}
+.divider:hover{
+    color:white;
+    background-color: lightgrey;
+}
+.sending{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    margin: auto;
+}
+.create-group{
+    background-image: url("https://w0.peakpx.com/wallpaper/920/587/HD-wallpaper-whatsapp-app-fondo-sms-verde-wall-whatsapp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.msg_container{
+    padding-bottom: 100px;
+}

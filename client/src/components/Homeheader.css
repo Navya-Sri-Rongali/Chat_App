@@ -1,0 +1,38 @@
+.row-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.homeheader-margin{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom:2px solid lightgray;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+.homeheader-buttons{
+    background-color: rgb(4, 166, 128);
+    color:white;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+    border:none;
+    margin:3px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.popup-buttons{
+background-color: rgb(4, 166, 128) !important;
+    color: white !important;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+}
+.signup-in-bottons{
+    display: flex;
+    flex-direction: row;
+}

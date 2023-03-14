@@ -1,0 +1,24 @@
+.mygroups_link{
+    border: 1px solid lightgray !important;
+    text-decoration: none;
+    color:#1f9560;
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.mygroups_link:hover{
+    color:white;
+    background-color: #1f9560;
+    text-decoration: none;
+}
+.mygroups{
+    display: flex;
+    flex-direction: column;
+}
+.avatar{
+    margin-right: 10px !important;
+    border: 2px solid grey;
+    border-radius: 50%;
+}

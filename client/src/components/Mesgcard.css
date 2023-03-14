@@ -1,0 +1,35 @@
+.mesgcard{
+    display: flex;
+    background-color: white;
+    border:1px solid #1f9560;
+    flex-direction: column;
+    margin-left:20px;
+    margin-bottom: 10px;
+    width:fit-content;
+    height: fit-content;
+    /* padding: 5px; */
+    border-radius: 5px;
+    min-width: 210px;
+}
+.sendername{
+    color:#1f9560;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: start;
+    top:0;
+    left:0;
+}
+.mesg{
+    padding-left: 15px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    font-size:17px;
+    font-weight: 600;
+    justify-content: center;
+    
+}
+.time{
+    font-size: 10px;
+    text-align: right;
+}
+

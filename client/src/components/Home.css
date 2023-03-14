@@ -1,0 +1,15 @@
+.app{
+    width: 80%;
+    margin: auto;
+}
+.slick-image{
+    width: 35%;
+    object-fit: contain;
+    margin-right: 30px;
+}
+.container{
+    margin-top: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
